@@ -26,3 +26,4 @@
 #define INSTRUCTION_INVALID -1
 
 int InstructionSize_x86_64(const uint8_t * const, const size_t);
+int InstructionSize_x86(const uint8_t * const, const size_t);
